@@ -1,0 +1,18 @@
+public class Exercicio 2{
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int N1,i, Total;
+        
+    Total[0] = 0;
+    Total[1] = 0;
+    Total = entrada.nextInt("%d", &n1); 
+    
+    for(i = 1; i <= N1; i++)
+    {
+        Total[0] += i*i;
+        Total[1] += i;
+        if(i == N1)Total[1] = Total[1]*Total[1];
+    }
+    printf("Soma do quadrado dos primeiros - Quadrado da soma dos primeiros: %d\n", Total[1]-Total[0]);
+    return 0;
+}
