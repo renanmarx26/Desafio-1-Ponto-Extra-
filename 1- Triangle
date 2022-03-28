@@ -1,0 +1,33 @@
+public class Exercicio 1 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int A, B, C;
+        
+      	System.out.print("Verificador de Triângulos\n\n");
+        
+        
+        System.out.print("Digite o lado de A=");
+        A = entrada.nextInt(); 
+		
+        System.out.print("Digite o lado de B=");
+        B = entrada.nextInt(); 
+		
+		System.out.print("Digite o lado de C=");
+        C = entrada.nextInt(); 
+        
+        
+		if( A < B + C && B < A + C && C < A + B ){ 
+			if(A==B && B == C){ 
+				System.out.print("O triângulo é um Eqüilátero.");
+			}else if(A==B || A==C || B==C){ 
+				System.out.print("O triângulo é um Isósceles.");
+			}else{ 
+				System.out.print("O triângulo é um Escaleno.");
+			}
+		}else{ 
+			System.out.print("Os lados fornecidos não caracterizam um triângulo");
+		}
+    
+    }
+    
+}
