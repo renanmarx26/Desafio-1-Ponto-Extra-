@@ -1,0 +1,36 @@
+class Main{
+public class Exercicio 3{
+(
+public static void main(String args())
+(
+Scanner entrada = new Scanner(System.in);
+
+int num;
+double x = 13;
+double f = x;
+
+ while (x > 1){
+    f = f *(x-1);
+    x--;
+    System.out.println(f);
+    }
+
+  
+System.out.print("Digite um número\n\n");
+                                               
+
+   if (num == 3){
+  System.out.printIn("Pling");
+    
+  }else if (num == 5){
+  System.out.printIn("Plang");
+  
+  }else if (num == 7){
+  System.out.printIn ("Plong");
+     
+  }else (num != ){
+  System.out.printIn("O resultado é " + num);
+     
+} 
+}
+}
